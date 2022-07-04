@@ -7,7 +7,11 @@ h1 {
     font-size: 50px;
 }
 
-#nameColor {
+h2 {
+    font-size: 40px;
+}
+
+.nameColor {
     color: blue;
 }
 
@@ -48,4 +52,30 @@ h1 {
     background-image: url(/images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-item {
+    border-radius: 10px;
+    width: 40%;
+    margin: 5% 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 30px cornflowerblue;
+}
+
+.experience-area {
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#fullstack {
+    border-left: 7px solid orange;
+}
+
+#babystack {
+    border-left: 7px solid blue;
+}
+
+#footer {
+    text-align: center;
 }
