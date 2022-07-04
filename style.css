@@ -24,6 +24,7 @@ section {
 
 .half-width img {
     width: 70%;
+    margin: 60px;
 }
 
 .link-button {
